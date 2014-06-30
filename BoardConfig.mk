@@ -4,6 +4,10 @@
 # inherit from the proprietary version
 -include vendor/amazon/hdx-common/BoardConfigVendor.mk
 
+# Kernel config
+TARGET_KERNEL_CONFIG := apollo_full_defconfig
+BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/dt.img
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := apollo
 
