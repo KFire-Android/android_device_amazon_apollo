@@ -5,7 +5,7 @@
 -include vendor/amazon/hdx-common/BoardConfigVendor.mk
 
 # Kernel config
-TARGET_KERNEL_CONFIG := apollo_full_defconfig
+TARGET_KERNEL_CONFIG := apollo_android_defconfig
 BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/dt.img
 
 # Assert
