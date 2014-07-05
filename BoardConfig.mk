@@ -6,7 +6,7 @@
 
 # Kernel config
 TARGET_KERNEL_CONFIG := apollo_android_defconfig
-BOARD_MKBOOTIMG_ARGS += --dt device/amazon/thor/dt.img
+BOARD_MKBOOTIMG_ARGS += --dt device/amazon/apollo/dt.img
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := apollo
